@@ -1,3 +1,4 @@
+#!/bin/bash
 docker-compose up -d
 echo "Aguardando o banco de dados inicializar"
 sleep 5
