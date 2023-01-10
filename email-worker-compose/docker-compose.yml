@@ -50,7 +50,7 @@ services:
       - db  
       - queue
     environment:
-      - DB_NAME=email_sender
+      - DB_NAME=outro_db_email_sender
   
   worker:
     build: worker
