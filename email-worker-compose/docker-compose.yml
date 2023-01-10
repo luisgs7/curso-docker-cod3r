@@ -49,6 +49,8 @@ services:
     depends_on:
       - db  
       - queue
+    environment:
+      - DB_NAME=email_sender
   
   worker:
     build: worker
